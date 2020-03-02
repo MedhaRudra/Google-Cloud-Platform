@@ -1,0 +1,5 @@
+{
+  "no_of_vm": "2", 
+  "instance_name_1": "my-vm-1",
+  "instance_name_2": "my-vm-2"
+}

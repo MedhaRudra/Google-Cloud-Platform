@@ -1,0 +1,10 @@
+{
+        "machineType": "zones/us-central1-a/machineTypes/n1-standard-1",
+        "disks":
+        [    {
+                "boot": "True",
+                "initializeParams": {"sourceImage": "projects/debian-cloud/global/images/family/debian-9"}
+             }
+        ],
+        "networkInterfaces": [{"network": "global/networks/default"}]
+}
