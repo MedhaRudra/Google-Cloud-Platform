@@ -5,11 +5,11 @@ class MultipleVMInstances:
     
     def new_vm_instance(self):
 	
-		#reading the config file
+	#reading the config file
         with open('myconfig.json') as f:
             config = json.load(f)
 			
-		#appending the config file with the name of VM instance
+	#appending the config file with the name of VM instance
         name= {"name": self.instance_name}
         config.update(name)
         
@@ -22,7 +22,7 @@ class MultipleVMInstances:
         self.instance_name = instance_name
         
 def main(resource):
-	#reading the input file
+    #reading the input file
     with open('input_file.json') as i:
         input = json.load(i)
     no_of_vm = int(input['no_of_vm'])
