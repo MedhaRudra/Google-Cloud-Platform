@@ -27,4 +27,6 @@ def main():
         no_of_vm="2"
 	conf= MyConfiguration(project_name,zone_name,no_of_vm)
 	conf.setconfig()
-		
+	
+if __name__ = __main__():
+	main()
