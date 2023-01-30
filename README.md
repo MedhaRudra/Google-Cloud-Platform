@@ -1,2 +1,3 @@
 # Creating Multiple VM Instances
-Code to create multiple VM instances on Google Cloud Platform using a Python Script.
+1) Code to create multiple VM instances on Google Cloud Platform using a Python Script.
+2) Code to create multiple VM instances on Google Cloud Platform using a Config file.
